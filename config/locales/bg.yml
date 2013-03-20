@@ -1,0 +1,8 @@
+# Bulgarian locale strings go here for Rails i18n
+de:
+  button_authorchange: "Смяна на автора"
+  label_authorchange: "Настоящият автор е "
+  head_authorchange: "Смяна на настоящия автор на "
+  label_authorchange_setlog: "Запис в историята на задачата? "
+  label_authorchange_setlog_description: "Промяната ще бъде записана в историята на задачата"
+  
