@@ -19,8 +19,4 @@
 
 <% html_title "#{@issue.tracker.name} ##{@issue.id}: #{@issue.subject}" %>
 
-<% content_for :sidebar do %>
-  <%= render :partial => 'issues/sidebar' %>
-<% end %>
-
 <%= context_menu issues_context_menu_path %>
