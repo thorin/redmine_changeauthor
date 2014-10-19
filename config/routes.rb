@@ -1,4 +1,4 @@
 RedmineApp::Application.routes.draw do
-  get '/changeauthor/:id/edit' => 'changeauthor#edit', :as => 'edit_changeauthor'
-  put '/changeauthor/:id/update' => 'changeauthor#update', :as => 'changeauthor'
+  get '/changeauthor/edit/:id' => 'changeauthor#edit', :as => 'edit_changeauthor'
+  put '/changeauthor/update/:id' => 'changeauthor#update', :as => 'changeauthor'
 end
